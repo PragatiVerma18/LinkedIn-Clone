@@ -1,0 +1,201 @@
+body{
+margin: auto;
+overflow-x: hidden;
+}
+
+.btn-sign{
+background: white;
+color: #0073b1 !important;
+border:1px solid #0073b1 !important;
+border-radius: 2px !important ;
+}
+
+.btn-sign:hover{
+  background: #98d8f4 !important;
+  border:2px solid #0073b1 !important;
+  font-weight: 500px !important;
+  }
+
+.join{
+  color:#000000 !important;
+  background: inherit;
+  margin-right: 12px;
+  font-weight: 500;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.join:hover{
+  text-decoration: none;
+  color: #000000;
+  background: #cfcfcf;
+  transition: 500ms;
+  border-radius: 2px !important ;
+  
+}
+
+.navbar{
+  font-size: 16px;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background: white !important;
+}
+
+.hero{
+  padding-top: 60px;
+  width: 1184px;
+  height: 584px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.header-text{
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 200;
+}
+.find{
+  width: 408px;
+  height: 56px;
+  padding: 10px 10px;
+  margin-top: 76px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+.subheader-text{
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 200;
+  margin-left: 110px;
+}
+
+section.top_lists .lists ul .list-item p {
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+}
+section.top_lists .lists ul .list-item {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 6px;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  padding-top: 6px !important;
+  background-color:#cccccc;
+  border-radius: 28px;
+  color: #6B7071 !important;
+  font-weight: bold !important;
+}
+.container, .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+section{
+  display: block;
+}
+.container, .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid :after, :before{
+  box-sizing: border-box;
+}
+section.top_lists .lists ul{
+  padding: 0;
+  list-style: none;
+}
+ul{
+  margin-bottom: 10px;
+  margin-top: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 70px;
+}
+p{
+  text-decoration: none;
+}
+.opt:hover{
+  color: #000000 !important;
+}
+.col-centered {
+  margin: 0 auto!important;
+  float: none!important;
+  display: block!important;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.list-item:hover{
+  background-color: #868B8C !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  border-radius: 20px; 
+  cursor: pointer;
+  -webkit-transition: color 0.8s;
+
+}
+
+li:hover{
+  color: #000000;
+}
+
+.sub{
+  background-color: #f1ece5;
+  padding: 70px;
+}
+
+.hisubheader-text{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 200;
+  margin-left: 110px;
+}
+
+.jumbotron{
+  background: #DCE0E1 !important;
+  margin-bottom: 0px !important;
+}
+
+.post{
+  border: 1px solid #6B7071;
+  color: #6B7071;
+  border-radius: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-left:6px;
+  margin-bottom: 12px;
+  background: inherit; 
+}
+.post:hover{
+  background: #B2B6B6;
+  color: #000000;
+  font-weight: 500;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.btn-find{
+  border-radius: 28px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  margin-top: 40px;
+  margin-left:100px;
+  margin-bottom: 12px;
+}
